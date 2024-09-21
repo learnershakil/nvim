@@ -29,7 +29,7 @@ require("lazy").setup({
     -- import any extra plugins here
     {import = "lazyvim.plugins.extras.lang.typescript"},
     {import = "lazyvim.plugins.extras.lang.java"},
-    {import = "lazyvim.plugins.extras.lang.python     "},
+    {import = "lazyvim.plugins.extras.lang.python"},
     {import = "lazyvim.plugins.extras.lang.php"},
     {import = "lazyvim.plugins.extras.lang.rust"},
     {import = "lazyvim.plugins.extras.lang.json"},
