@@ -17,10 +17,10 @@ require("neo-tree").setup({
   })
   
   -- To use powershell instead of cmd, you can use the following setup:
-  vim.opt.shell = "powershell"
-  vim.opt.shellcmdflag = "-NoLogo -NoProfile -ExecutionPolicy RemoteSigned -Command"
-  vim.opt.shellquote = ""
-  vim.opt.shellxquote = ""
+  -- vim.opt.shell = "powershell"
+  -- vim.opt.shellcmdflag = "-NoLogo -NoProfile -ExecutionPolicy RemoteSigned -Command"
+  -- vim.opt.shellquote = ""
+  -- vim.opt.shellxquote = ""
   
 -- TO apply autosave after a second of leaving insert mode or when text is changed, you can use the following setup:
 local autosave_timer = nil
